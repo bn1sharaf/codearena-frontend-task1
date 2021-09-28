@@ -70,6 +70,7 @@ document.addEventListener('click', function(e) {
 	if (e.target.classList.contains('complete')) {
 
 		e.target.parentNode.classList.toggle('finished');
+			e.target.classList.toggle('completed');
 
 	}
 
