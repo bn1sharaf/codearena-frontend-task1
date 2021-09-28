@@ -78,9 +78,6 @@ body {
   padding: 10px;
 }
 
-.tasks-content > span:not(:last-child) {
-  margin-bottom: 10px;
-}
 
 .delete {
   float: right;
@@ -91,6 +88,9 @@ body {
   font-size: 12px;
   font-weight: bold;
   border-radius: 4px;
+}
+.tasks-content > span:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .complete {
